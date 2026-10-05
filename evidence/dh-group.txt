@@ -1,0 +1,2 @@
+    DH Parameters: (3072 bit)
+    GROUP: ffdhe3072

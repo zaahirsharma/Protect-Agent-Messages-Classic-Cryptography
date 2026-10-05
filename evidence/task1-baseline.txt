@@ -1,0 +1,22 @@
+DEMONSTRATION 1: ciphertext modification
+Original plaintext: {"action":"READ","path":"notes.txt"}
+IV: fb7f72c6fca93153a17af0650d880da5
+Original ciphertext: 2866b2a7d77022d4be0e77204100330a095c605e13abeec3b899023aae262508d45d2529
+Processed #1: action=READ, path=notes.txt
+Modified ciphertext: 2866b2a7d77022d4be0e77254508230a095c605e13abeec3b899023aae262508d45d2529
+Processed #2: action=WAIT, path=notes.txt
+Modified plaintext: {"action":"WAIT","path":"notes.txt"}
+
+XOR relation: C XOR C' = P XOR P'
+READ bytes: 52454144
+WAIT bytes: 57414954
+Plaintext XOR: 05040810
+Ciphertext XOR: 05040810
+PASS: relay changed READ to WAIT without receiving the key.
+
+DEMONSTRATION 2: replay
+Processed #1: action=READ, path=notes.txt
+Processed #2: action=READ, path=notes.txt
+PASS: the identical IV and ciphertext were processed twice.
+
+All Task 1 demonstration checks passed.

@@ -1,0 +1,14 @@
+Header bytes: 15
+Maximum plaintext bytes per record: 16
+Initial send sequences: 0 0
+REJECTED modified ciphertext: invalid MAC
+REJECTED modified header: invalid MAC
+REJECTED reflected record: invalid MAC
+Accepted gateway-to-node: READ notes.txt
+REJECTED replayed record: unexpected sequence
+Accepted node-to-gateway: OK
+REJECTED out-of-order record: unexpected sequence
+PASS: rejected records did not advance receive state.
+PASS: distinct IVs for consecutive gateway records.
+REJECTED oversized plaintext: plaintext exceeds 16-byte record limit
+All Task 3 demonstration checks passed.

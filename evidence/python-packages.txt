@@ -1,0 +1,21 @@
+Name: cryptography
+Version: 49.0.0
+Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+Home-page: https://github.com/pyca/cryptography
+Author: 
+Author-email: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
+License-Expression: Apache-2.0 OR BSD-3-Clause
+Location: /home/ubuntu/csce465-agentsec/.venv/lib/python3.12/site-packages
+Requires: cffi
+Required-by: 
+---
+Name: pytest
+Version: 9.1.1
+Summary: pytest: simple powerful testing with Python
+Home-page: https://docs.pytest.org/en/latest/
+Author: Brianna Laugher, Bruno Oliveira, Floris Bruynooghe, Freya Bruhin, Holger Krekel, Others (See AUTHORS), Ronny Pfannschmidt
+Author-email: 
+License-Expression: MIT
+Location: /home/ubuntu/csce465-agentsec/.venv/lib/python3.12/site-packages
+Requires: iniconfig, packaging, pluggy, pygments
+Required-by: 

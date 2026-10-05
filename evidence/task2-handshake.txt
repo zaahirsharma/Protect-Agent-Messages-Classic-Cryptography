@@ -1,0 +1,16 @@
+RSA signing key sizes: 3072 3072
+Transcript field lengths: [13, 9, 10, 7, 384, 384, 16, 16]
+Transcript SHA-256: 42728f208afda27c9feae45199358cc49730cb7bb45f5c27a85693ca7a562cdf
+REJECTED changed peer nonce: invalid peer signature
+REJECTED changed peer DH value: invalid peer signature
+REJECTED unexpected identity: unexpected peer identity
+REJECTED malformed length: malformed transcript: truncated field
+REJECTED invalid RSA-PSS signature: invalid peer signature
+REJECTED incorrect RSA public key: invalid peer signature
+REJECTED reflected handshake: unexpected peer role
+PASS: both parties derived identical session material.
+PASS: four distinct 32-byte directional keys.
+Session 1 identifier: c3ff090be42e94be
+Session 2 identifier: 88488a2d8aa3b97d
+PASS: fresh DH public values and nonces in the second session.
+All Task 2 demonstration checks passed.
